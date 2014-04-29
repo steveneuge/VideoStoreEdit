@@ -21,9 +21,6 @@ public:
     // movie rented
     const Video& getVideo() const;
 
-    // charge for the movie
-    double getCharge() const;
-
 private:
     Video movie;
     int days;
